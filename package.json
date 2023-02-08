@@ -4,7 +4,7 @@
   "description": "Demonstrates the output of several xml to json libraries",
   "scripts": {
     "build": "npx ./build.js",
-    "serve": "http-server dist"
+    "serve": "http-server docs"
   },
   "repository": {
     "type": "git",

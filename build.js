@@ -7,7 +7,7 @@ const xml2js = require('xml2js');
 const { XMLParser, XMLBuilder, XMLValidator} = require("fast-xml-parser");
 
 
-const dir = './dist';
+const dir = './docs';
 
 const xml = `
 <?xml version="1.0"?>
