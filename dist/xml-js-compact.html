@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <title>XML to JSON Library Comparison</title>
+    <style>
+h1 {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-bottom: .5rem;
+}
+a {
+  background: #ccc;
+  padding: .5rem 1rem;
+  margin-right: .5rem;
+  font-size: 18px;
+}
+pre {
+  background: #1C1C1C;
+  color: #ddd;
+  padding: .5rem;
+}
+    </style>
+  </head>
+  <body>
+    <h1>XML to JSON Library Comparison</h1>
+    <div><a href="index.html">Example XML</a> <a href="txml.html">tXml</a> <a href="txml-simplified.html">tXml Simplified</a> <a href="xml-js.html">xml-js</a> <a href="xml-js-compact.html">xml-js Compact</a> <a href="fast-xml-parser.html">fast-xml-parser w/o ignoreAttributes</a> <a href="xml2js.html">xml2js</a></div>
+    <h2>xml-js Compact</h2>
+    <div>
+      <pre><code>{
+  &quot;_declaration&quot;: {
+    &quot;_attributes&quot;: {
+      &quot;version&quot;: &quot;1.0&quot;
+    }
+  },
+  &quot;_instruction&quot;: {
+    &quot;xml-stylesheet&quot;: &quot;href=\&quot;catalog.xsl\&quot; type=\&quot;text/xsl\&quot;&quot;
+  },
+  &quot;_doctype&quot;: &quot;catalog SYSTEM \&quot;catalog.dtd\&quot;&quot;,
+  &quot;catalog&quot;: {
+    &quot;product&quot;: {
+      &quot;_attributes&quot;: {
+        &quot;description&quot;: &quot;Cardigan Sweater&quot;,
+        &quot;product_image&quot;: &quot;cardigan.jpg&quot;
+      },
+      &quot;catalog_item&quot;: [
+        {
+          &quot;_attributes&quot;: {
+            &quot;gender&quot;: &quot;Men&#39;s&quot;
+          },
+          &quot;item_number&quot;: {
+            &quot;_text&quot;: &quot;QWZ5671&quot;
+          },
+          &quot;price&quot;: {
+            &quot;_text&quot;: &quot;39.95&quot;
+          },
+          &quot;size&quot;: [
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Medium&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;red_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Red&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;burgundy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Burgundy&quot;
+                }
+              ]
+            },
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Large&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;red_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Red&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;burgundy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Burgundy&quot;
+                }
+              ]
+            }
+          ]
+        },
+        {
+          &quot;_attributes&quot;: {
+            &quot;gender&quot;: &quot;Women&#39;s&quot;
+          },
+          &quot;item_number&quot;: {
+            &quot;_text&quot;: &quot;RRX9856&quot;
+          },
+          &quot;price&quot;: {
+            &quot;_text&quot;: &quot;42.50&quot;
+          },
+          &quot;size&quot;: [
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Small&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;red_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Red&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;navy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Navy&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;burgundy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Burgundy&quot;
+                }
+              ]
+            },
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Medium&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;red_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Red&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;navy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Navy&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;burgundy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Burgundy&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;black_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Black&quot;
+                }
+              ]
+            },
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Large&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;navy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Navy&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;black_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Black&quot;
+                }
+              ]
+            },
+            {
+              &quot;_attributes&quot;: {
+                &quot;description&quot;: &quot;Extra Large&quot;
+              },
+              &quot;color_swatch&quot;: [
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;burgundy_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Burgundy&quot;
+                },
+                {
+                  &quot;_attributes&quot;: {
+                    &quot;image&quot;: &quot;black_cardigan.jpg&quot;
+                  },
+                  &quot;_text&quot;: &quot;Black&quot;
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}</code></pre>
+    </div>
+  </body>
+</html>

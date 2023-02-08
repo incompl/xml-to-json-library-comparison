@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>XML to JSON Library Comparison</title>
+    <style>
+h1 {
+  margin-bottom: 1rem;
+}
+h2 {
+  margin-bottom: .5rem;
+}
+a {
+  background: #ccc;
+  padding: .5rem 1rem;
+  margin-right: .5rem;
+  font-size: 18px;
+}
+pre {
+  background: #1C1C1C;
+  color: #ddd;
+  padding: .5rem;
+}
+    </style>
+  </head>
+  <body>
+    <h1>XML to JSON Library Comparison</h1>
+    <div><a href="index.html">Example XML</a> <a href="txml.html">tXml</a> <a href="txml-simplified.html">tXml Simplified</a> <a href="xml-js.html">xml-js</a> <a href="xml-js-compact.html">xml-js Compact</a> <a href="fast-xml-parser.html">fast-xml-parser w/o ignoreAttributes</a> <a href="xml2js.html">xml2js</a></div>
+    <h2>Example XML</h2>
+    <div>
+      <pre><code>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;?xml-stylesheet href=&quot;catalog.xsl&quot; type=&quot;text/xsl&quot;?&gt;
+&lt;!DOCTYPE catalog SYSTEM &quot;catalog.dtd&quot;&gt;
+&lt;catalog&gt;
+   &lt;product description=&quot;Cardigan Sweater&quot; product_image=&quot;cardigan.jpg&quot;&gt;
+      &lt;catalog_item gender=&quot;Men&#39;s&quot;&gt;
+         &lt;item_number&gt;QWZ5671&lt;/item_number&gt;
+         &lt;price&gt;39.95&lt;/price&gt;
+         &lt;size description=&quot;Medium&quot;&gt;
+            &lt;color_swatch image=&quot;red_cardigan.jpg&quot;&gt;Red&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;burgundy_cardigan.jpg&quot;&gt;Burgundy&lt;/color_swatch&gt;
+         &lt;/size&gt;
+         &lt;size description=&quot;Large&quot;&gt;
+            &lt;color_swatch image=&quot;red_cardigan.jpg&quot;&gt;Red&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;burgundy_cardigan.jpg&quot;&gt;Burgundy&lt;/color_swatch&gt;
+         &lt;/size&gt;
+      &lt;/catalog_item&gt;
+      &lt;catalog_item gender=&quot;Women&#39;s&quot;&gt;
+         &lt;item_number&gt;RRX9856&lt;/item_number&gt;
+         &lt;price&gt;42.50&lt;/price&gt;
+         &lt;size description=&quot;Small&quot;&gt;
+            &lt;color_swatch image=&quot;red_cardigan.jpg&quot;&gt;Red&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;navy_cardigan.jpg&quot;&gt;Navy&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;burgundy_cardigan.jpg&quot;&gt;Burgundy&lt;/color_swatch&gt;
+         &lt;/size&gt;
+         &lt;size description=&quot;Medium&quot;&gt;
+            &lt;color_swatch image=&quot;red_cardigan.jpg&quot;&gt;Red&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;navy_cardigan.jpg&quot;&gt;Navy&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;burgundy_cardigan.jpg&quot;&gt;Burgundy&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;black_cardigan.jpg&quot;&gt;Black&lt;/color_swatch&gt;
+         &lt;/size&gt;
+         &lt;size description=&quot;Large&quot;&gt;
+            &lt;color_swatch image=&quot;navy_cardigan.jpg&quot;&gt;Navy&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;black_cardigan.jpg&quot;&gt;Black&lt;/color_swatch&gt;
+         &lt;/size&gt;
+         &lt;size description=&quot;Extra Large&quot;&gt;
+            &lt;color_swatch image=&quot;burgundy_cardigan.jpg&quot;&gt;Burgundy&lt;/color_swatch&gt;
+            &lt;color_swatch image=&quot;black_cardigan.jpg&quot;&gt;Black&lt;/color_swatch&gt;
+         &lt;/size&gt;
+      &lt;/catalog_item&gt;
+   &lt;/product&gt;
+&lt;/catalog&gt;</code></pre>
+    </div>
+  </body>
+</html>

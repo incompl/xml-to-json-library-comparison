@@ -1,0 +1,29 @@
+{
+  "name": "xml-to-json-library-comparison",
+  "version": "1.0.0",
+  "description": "Demonstrates the output of several xml to json libraries",
+  "scripts": {
+    "build": "npx ./build.js",
+    "serve": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incompl/xml-to-json-library-comparison.git"
+  },
+  "author": "Greg Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incompl/xml-to-json-library-comparison/issues"
+  },
+  "homepage": "https://github.com/incompl/xml-to-json-library-comparison#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "escape-html": "^1.0.3",
+    "fast-xml-parser": "^4.1.1",
+    "http-server": "^14.1.1",
+    "txml": "^5.1.1",
+    "xml-js": "^1.6.11"
+  }
+}
